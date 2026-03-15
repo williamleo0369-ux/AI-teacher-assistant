@@ -1,0 +1,21 @@
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Node dependencies
+node_modules/
+dist/
+
+# Python virtual environment
+venv/
+__pycache__/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# Uploads
+uploads/
