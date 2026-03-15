@@ -60,3 +60,13 @@
 
     *   前端将运行在 `http://localhost:5173`
     *   后端将运行在 `http://localhost:5001`
+
+## 🌐 一键部署到 Vercel
+
+本项目已针对 [Vercel](https://vercel.com/) 平台进行了优化，您可以通过以下步骤一键部署，获得一个公开的在线版本：
+
+1.  **Fork & Clone**: 首先，将此 GitHub 仓库 Fork 到您自己的账户下。
+2.  **注册 Vercel**: 使用您的 GitHub 账户免费注册 Vercel。
+3.  **导入项目**: 在 Vercel 的仪表盘上，点击 “Add New..." -> "Project”，然后选择您刚刚 Fork 的仓库并导入。
+4.  **配置环境变量**: 在项目设置的 “Environment Variables” 部分，添加您在 `.env` 文件中使用的 `VITE_GEMINI_API_KEY` 和 `VITE_DEEPSEEK_API_KEY`。
+5.  **部署!**: 点击 “Deploy” 按钮。Vercel 将自动完成所有构建、部署和托管工作。几分钟后，您将拥有一个可公开分享的网址！
